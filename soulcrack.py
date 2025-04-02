@@ -223,7 +223,7 @@ def handle_soul(message):
                 record_command_logs(user_id, '/soul_compiled', king, TRUSTPAPA, time)
                 log_command(user_id, king, TRUSTPAPA, time)
                 start_attack_reply(message, king, TRUSTPAPA, time)  
-                full_command = f"./rahul {king} {TRUSTPAPA} {time} 877"
+                full_command = f"./rahul {king} {TRUSTPAPA} {time} {7} 800"
                 subprocess.run(full_command, shell=True)
                 response = f" 🇮🇳🇦 🇹 🇹 🇦 🇨 🇰  🇴 🇫 🇫  🇮🇳 "
         else:
