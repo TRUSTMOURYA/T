@@ -6,7 +6,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7740649057:AAEBxDhosK_XNeZinXPt1eZ-L2kktNSEqIY')
+bot = telebot.TeleBot('7740649057:AAEa48jPk3g94FiMZ1tufUb3UihS6loLZi8')
 
 # Admin user IDs
 admin_id = {"6366780616", "7148316298", "12345667"}
@@ -223,7 +223,7 @@ def handle_soul(message):
                 record_command_logs(user_id, '/soul_compiled', king, TRUSTPAPA, time)
                 log_command(user_id, king, TRUSTPAPA, time)
                 start_attack_reply(message, king, TRUSTPAPA, time)  
-                full_command = f"./trust {king} {TRUSTPAPA} {time} 1024 900"
+                full_command = f"./rahul {king} {TRUSTPAPA} {time} 877"
                 subprocess.run(full_command, shell=True)
                 response = f" 🇮🇳🇦 🇹 🇹 🇦 🇨 🇰  🇴 🇫 🇫  🇮🇳 "
         else:
